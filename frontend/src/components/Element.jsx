@@ -1,5 +1,3 @@
-import React from "react";
-
 const Element = ({ id, info, exId }) => {
   return (
     <div>

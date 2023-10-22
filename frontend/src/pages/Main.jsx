@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import { BsGrid1X2, BsFillImageFill } from "react-icons/bs";
 import { FaShapes } from "react-icons/fa";
