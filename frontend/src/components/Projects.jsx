@@ -16,7 +16,7 @@ const Projects = () => {
             >
               <img
                 className="w-full h-full object-fill"
-                src={`http://localhost:5174/project.png`}
+                src={`http://localhost:5173/project.png`}
                 alt=""
               />
             </Link>
