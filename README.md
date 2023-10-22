@@ -1,5 +1,6 @@
 # canva-clone
-#on terminal go to /frontend/ path
+#on terminal go to /frontend/ path 
+#run command npm install
 #run command npm run dev
 # check Shape in sidebar
 # as per discussion in given clone drag-drop event ,overlap shape and Resizing shape functionality implemented.we can change color of component in right side 
