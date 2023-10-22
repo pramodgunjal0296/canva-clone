@@ -110,8 +110,8 @@ const Main = () => {
       name: "main_frame",
       type: "rect",
       id: Math.floor(Math.random() * 100 + 1),
-      height: 450,
-      width: 650,
+      height: 600,
+      width: 800,
       z_index: 1,
       color: "#fff",
       image: "",
@@ -275,11 +275,11 @@ const Main = () => {
               </div>
             )}
             {state === "shape" && (
-              <div
-                onClick={() => createShape("shape", "rect")}
-                className="grid grid-cols-3 gap-2"
-              >
-                <div className="h-[90px] bg-[#3c3c3d] cursor-pointer"></div>
+              <div className="grid grid-cols-3 gap-2">
+                <div
+                  onClick={() => createShape("shape", "rect")}
+                  className="h-[90px] bg-[#3c3c3d] cursor-pointer"
+                ></div>
                 <div
                   onClick={() => createShape("shape", "circle")}
                   className="h-[90px] bg-[#3c3c3d] cursor-pointer rounded-full"
